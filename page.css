@@ -24,5 +24,22 @@ a {
     padding: 0px;
 } 
 .img-one img {
-    height: 100px;
+    height: 200px;
+    box-shadow: 8px 8px 15px rgba(0, 0, 0, 1.5); 
+}
+.content {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+h1 {
+    color: white;
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+  }  
+.description {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 350px;
+    text-shadow: 1px 1px wheat;
 }
