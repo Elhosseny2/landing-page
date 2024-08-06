@@ -100,3 +100,27 @@ article{
     display: flex;
     justify-content: flex-end;
 }
+.section-four {
+    padding:100px;
+}
+.sign {
+    background-color: rgb(88, 136, 242);
+    padding:30px ;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+    font-size: 20px;
+    border-radius: 20px;
+}
+.anmelden  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid white;
+    padding: 5px;
+    border-radius: 15px;
+    font-size: 25px;
+    height: 20px;
+    width: 130px;
+}
