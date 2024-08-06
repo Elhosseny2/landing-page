@@ -124,3 +124,9 @@ article{
     height: 20px;
     width: 130px;
 }
+footer {
+    background-color: rgb(64, 61, 61);
+    padding:  20px;
+    text-align: center;
+    color: white;
+}
