@@ -1,132 +1,132 @@
 body {
-    margin: 0;
+  margin: 0;
 }
 .section-one {
-font-family: monospace;
-background-color: gray;
-margin: auto;
-display: flex;
-flex-direction: column;
+  font-family: monospace;
+  background-color: gray;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
 }
 .header {
- display: flex;
- justify-content: space-around;
- background-color: gray;
- padding: 10px;
+  display: flex;
+  justify-content: space-around;
+  background-color: gray;
+  padding: 10px;
 }
 .links {
-    display: flex;
-    gap: 1em;
+  display: flex;
+  gap: 1em;
 }
 a {
-    text-decoration: none;
-    color: black;
-    margin: auto;
-} 
- .logo img {
-    width: 50px;
-    height: 50px;
-    padding: 0px;
-} 
+  text-decoration: none;
+  color: black;
+  margin: auto;
+}
+.logo img {
+  width: 50px;
+  height: 50px;
+  padding: 0px;
+}
 .img-one img {
-    height: 200px;
+  height: 200px;
 }
 .content {
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
 }
 h1 {
-    font-family: cursive;
-    color: white;
-    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
-  }  
+  font-family: cursive;
+  color: white;
+  text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+}
 .description {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    width: 350px;
-    text-shadow: #FC0 1px 0 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 350px;
+  text-shadow: #fc0 1px 0 10px;
 }
 button {
-    padding: 5px;
-    width: 90px;
+  padding: 5px;
+  width: 90px;
 }
-.section-two{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-bottom: 100px;
+.section-two {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 100px;
 }
 .blocks {
-display: flex;
-justify-content: center;
-gap: 2em;
-text-align: center;
+  display: flex;
+  justify-content: center;
+  gap: 2em;
+  text-align: center;
 }
 .blocks div {
-    border: 2px solid rgb(98, 140, 247);
-    height: 100px;
-    width: 100px;
-    border-radius: 20px;
+  border: 2px solid rgb(98, 140, 247);
+  height: 100px;
+  width: 100px;
+  border-radius: 20px;
 }
 .blocks img {
-    height: 100px;
-    width: 100px;
-    border-radius: 18px;
+  height: 100px;
+  width: 100px;
+  border-radius: 18px;
 }
 .blocks p {
-    margin-top: 0px;
-    font-size: 8px;
-    font-family: monospace;
-    color: rgb(252, 252, 247);
-    text-shadow: 1px 1px 2px black, 0 0 25px black, 0 0 5px black;
+  margin-top: 0px;
+  font-size: 8px;
+  font-family: monospace;
+  color: rgb(252, 252, 247);
+  text-shadow: 1px 1px 2px black, 0 0 25px black, 0 0 5px black;
 }
 .section-three {
-    background-color: rgba(231, 212, 212, 0.873);
-    padding: 100px;
-    margin: auto;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  background-color: rgba(231, 212, 212, 0.873);
+  padding: 100px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-article{
-    text-align: center;
-    font-family: 'Courier New', Courier, monospace;
-    font-size: 20px;
+article {
+  text-align: center;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 20px;
 }
 .Albert-Einstein {
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    display: flex;
-    justify-content: flex-end;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  display: flex;
+  justify-content: flex-end;
 }
 .section-four {
-    padding:100px;
+  padding: 100px;
 }
 .sign {
-    background-color: rgb(88, 136, 242);
-    padding:30px ;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    color: white;
-    font-size: 20px;
-    border-radius: 20px;
+  background-color: rgb(88, 136, 242);
+  padding: 30px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: white;
+  font-size: 20px;
+  border-radius: 20px;
 }
-.anmelden  {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border: 2px solid white;
-    padding: 5px;
-    border-radius: 15px;
-    font-size: 25px;
-    height: 20px;
-    width: 130px;
+.anmelden {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid white;
+  padding: 5px;
+  border-radius: 15px;
+  font-size: 25px;
+  height: 20px;
+  width: 130px;
 }
 footer {
-    background-color: rgb(64, 61, 61);
-    padding:  20px;
-    text-align: center;
-    color: white;
+  background-color: rgb(64, 61, 61);
+  padding: 20px;
+  text-align: center;
+  color: white;
 }
