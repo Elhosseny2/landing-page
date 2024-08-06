@@ -27,7 +27,6 @@ a {
 } 
 .img-one img {
     height: 200px;
-    box-shadow: 8px 8px 15px rgba(0, 0, 0, 1.5); 
 }
 .content {
     display: flex;
@@ -49,4 +48,33 @@ h1 {
 button {
     padding: 5px;
     width: 90px;
+}
+.section-two{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.blocks {
+display: flex;
+justify-content: center;
+gap: 2em;
+text-align: center;
+}
+.blocks div {
+    border: 2px solid rgb(98, 140, 247);
+    height: 100px;
+    width: 100px;
+    border-radius: 20px;
+}
+.blocks img {
+    height: 100px;
+    width: 100px;
+    border-radius: 18px;
+}
+.blocks p {
+    margin-top: 0px;
+    font-size: 8px;
+    font-family: monospace;
+    color: rgb(252, 252, 247);
+    text-shadow: 1px 1px 2px black, 0 0 25px black, 0 0 5px black;
 }
